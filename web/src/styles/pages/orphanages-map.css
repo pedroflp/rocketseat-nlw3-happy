@@ -1,0 +1,80 @@
+#page-map {
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+    display: flex;
+}
+
+#page-map .back-prevpage-button {
+    width: 110px;
+    height: 46px;
+    background: #ffd82c;
+    margin-bottom: 60px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.3s;
+}
+
+#page-map .back-prevpage-button:hover {
+    background: #fde05b;
+}
+
+#page-map aside {
+    width: 440px;
+    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+    padding: 40px 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#page-map aside h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 42px;
+    margin-top: 64px;
+    margin-bottom: 10px;
+}
+
+#page-map aside footer {
+    display: flex;
+    flex-direction: column;
+
+    line-height: 24px;
+}
+
+#page-map aside footer strong {
+    font-weight: 800;
+}
+
+#page-map .leaflet-container {
+    z-index: 5;
+}
+
+#page-map .create-orphanages {
+    position: absolute;
+    z-index: 10;
+    right: 40px;
+    bottom: 40px;
+
+    width: 64px;
+    height: 64px;
+    background: #15c3d6;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.3s;
+}
+
+#page-map .create-orphanages:hover {
+    background: #17d6eb;
+}
